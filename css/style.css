@@ -15,10 +15,10 @@
 
 /* ==== CSS VARIABLES ==== */
 :root {
-  --primary-color: #335eea;
-  --link-color: #506690;
-  --btn-hover-color: #2b50c7;
-  --lg-heading: #161c2d;
+  --primary-color: #10bd97;
+  --link-color: #3aa78f;
+  --btn-hover-color: #0a8168;
+  --lg-heading: #08614e;
   --text-content: #869ab8;
   --fixed-header-height: 4.5rem;
 }
@@ -183,7 +183,7 @@ button {
   color: #fff;
   letter-spacing: 0;
   background-color: #e1e7fc;
-  color: #0e2a86;
+  color: #08614e;
   box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
 }
 .documentation_btn:hover {
