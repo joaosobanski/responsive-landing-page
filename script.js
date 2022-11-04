@@ -41,28 +41,35 @@ gsap.from(".toggle_btn", {
 // ==== MAIN HEADING  ==== //
 gsap.from(".main-heading", {
   opacity: 0,
-  y: 20,
-  delay: 0.4,
+  x: -20,
+  delay: 0.3,
   duration: 1,
 });
 // ==== INFO TEXT ==== //
 gsap.from(".info-text", {
   opacity: 0,
-  y: 20,
-  delay: 0.6,
+  x: -20,
+  delay: 0.7,
   duration: 1,
 });
 // ==== CTA BUTTONS ==== //
 gsap.from(".btn_wrapper", {
   opacity: 0,
-  y: 20,
-  delay: 1.2,
+  x: -50,
+  delay: .9,
   duration: 1,
 });
 // ==== TEAM IMAGE ==== //
 gsap.from(".team_img_wrapper img", {
   opacity: 0,
-  y: 150,
-  delay: 1.2,
+  x: 150,
+  delay: .6,
+  duration: 1,
+});
+// ==== grid-col-item ==== //
+gsap.from(".service", {
+  opacity: 0,
+  x: 50,
+  delay: .3,
   duration: 1,
 });

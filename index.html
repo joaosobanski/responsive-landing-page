@@ -5,22 +5,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+  <title>Tarkin</title>
 
-  <!-- ==== STYLE.CSS ==== -->
   <link rel="stylesheet" href="./css/style.css" />
-
-  <!-- ====  REMIXICON CDN ==== -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
-
-  <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 </head>
 
 <body>
-  <!-- ==== HEADER ==== -->
   <header class="container header">
-    <!-- ==== NAVBAR ==== -->
     <nav class="nav">
       <div class="logo">
         <img width="230" height="76" src="./img/main-logo.png" alt="logomark">
@@ -40,15 +34,15 @@
             <a href="#" class="nav_menu_link">about</a>
           </li>
           <li class="nav_menu_item">
-            <a href="#" class="nav_menu_link">service</a>
+            <a href="#service" class="nav_menu_link">service</a>
           </li>
           <li class="nav_menu_item">
-            <a href="#" class="nav_menu_link">contact</a>
+            <a href="#contact" class="nav_menu_link">contact</a>
           </li>
         </ul>
       </div>
 
-      <button class="toggle_btn" id="toggle_btn">
+      <button class="toggle_btn " id="toggle_btn">
         <i class="ri-menu-line"></i>
       </button>
     </nav>
@@ -59,13 +53,13 @@
       <div class="grid-cols-2">
         <div class="grid-item-1">
           <h1 class="main-heading">
-            Welcome to <span>Devkit.</span>
+            Welcome to <span>Tarkin Labs.</span>
             <br />
             Develop anything.
           </h1>
           <p class="info-text">
-            Build a beautiful, modern website with flexible components built
-            from scratch.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            nostrum voluptate totam ipsa corrupti vero!
           </p>
           <div class="btn_wrapper">
             <button class="btn view_more_btn">
@@ -78,15 +72,20 @@
         <div class="grid-item-2">
           <div class="team_img_wrapper">
 
-            <!-- <img src="./img/team.svg" alt="team-img" /> -->
             <img src="./img/undraw.svg" alt="team-img" />
           </div>
+
+          <a class="btn_wrapper" href="#service">
+            <button class="btn documentation_btn">
+              Services
+            </button>
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="wrapper">
+  <section id="service" class="wrapper">
     <div class="container" data-aos="fade-up" data-aos-duration="1000">
       <div class="grid-cols-3">
         <div class="grid-col-item">
@@ -143,11 +142,110 @@
           </div>
         </div>
 
+
+
+      </div>
+
+      <div class="grid-item-2">
+
+        <a class="btn_wrapper" href="#contact">
+          <button class="btn documentation_btn">
+            Contact
+          </button>
+        </a>
       </div>
     </div>
   </section>
 
-  <footer></footer>
+
+
+  <footer id="contact">
+    <div class="container">
+      <div class="grid-cols-3">
+        <div class="grid-col-item">
+          <div class="icon">
+            <img src="./img/application (1).png" alt="mobile-img" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <div class="featured_info">
+            <span>Built for developers </span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              ratione facilis animi voluptas exercitationem molestiae.
+            </p>
+          </div>
+        </div>
+        <div class="grid-col-item">
+          <div class="icon">
+            <img src="./img/smart_contract.png" alt="smartcontract-img" />
+          </div>
+          <div class="featured_info">
+            <span>Designed to be modern</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              ipsum esse corrupti. Quo, labore debitis!
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-col-item">
+          <div class="icon">
+            <img src="./img/website.png" alt="website-img" />
+          </div>
+          <div class="featured_info">
+            <span>Documentation for everything</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              nostrum voluptate totam ipsa corrupti vero!
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-col-item">
+          <div class="icon">
+            <img src="./img/icons8-discord-100.svg" alt="discord-img" />
+          </div>
+          <div class="featured_info">
+            <span>Documentation for everything</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              nostrum voluptate totam ipsa corrupti vero!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="grid-item-2">
+
+        <a class="btn_wrapper" href="#contact">
+          <button class="btn documentation_btn">
+            Contact
+          </button>
+        </a>
+      </div>
+      <div class="grid-item-2">
+
+        <a class="btn_wrapper" href="#contact">
+          <button class="btn documentation_btn">
+            Contact
+          </button>
+        </a>
+      </div>
+      <div class="grid-item-2">
+
+        <a class="btn_wrapper" href="#contact">
+          <button class="btn documentation_btn">
+            Contact
+          </button>
+        </a>
+      </div>
+    </div>
+
+  </footer>
 
   <!-- ==== ANIMATE ON SCROLL JS CDN -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
